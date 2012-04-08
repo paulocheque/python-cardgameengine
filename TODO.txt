@@ -1,0 +1,65 @@
+Tests
+Test game stop
+
+Threads, join, async
+
+Refactoring:  class (), context
+
+Features: 
+- Dice
+- Time notion in commands manager (assynchronous): Move A (x to y) / A died / Move A (x to z)
+- Real time games: speed of a unit, travian
+- Physics module: smiles battle
+- Notify async?
+- Asteroids, Puzzle, Gamao, Hexagon, Reverse, Chess, Dama
+
+Buscar FIXMEs TODOs
+Quem comeca o round, ordem dos jogadores: ciclico, aleatorio
+Ciclo: todos jogadores jogaram uma vez, duas vezes, etc
+Politics, Strategy of who starts.
+timeForGame nao para as threads
+lentidao, criacao de threads?
+
+Poker: limit, no-limit, pot-limit
+PERFORMANCE: join performance?????? muitas threads??????
+
+
+Optimizing:
+- Combination Generator
+- DeepCopy
+- Context cache
+
+
+Cheats: (?) to verify
+- Override notify method
+- seeCards(Player(name))
+- Override configurations
+- Commands Manager (addCommand.parent.game)
+
+Site:
+
+= Training =
+
+REPORT: por jogo? widget?	
+Configuracoes por jogo
+
+1 por dia (por jogador, nao por estrategia)
+Grava log do ultimo treino apenas
+Ver replay (quantas vezes quiser)
+
+= Replay =
+
+Mostra log, run: le comandos e executa na interface
+Engine para WUI: Paineis, move, grid
+Engine para jogos de cartas: carta, stackofcartas (visivel ou nao (qtde de cartas))
+
+= Tournament =
+
+Criar: Convidar, aceitar pedido, rejeitar pedido
+Pedir pra entrar: Aceitar e Rejeitar 
+
+
+= Championship =
+
+Exibir formato, preco, jogo
+Inscricao

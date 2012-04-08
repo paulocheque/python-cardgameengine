@@ -1,0 +1,14 @@
+# virtualenv virtualenv-26 -p PATH_TO_PYTHON26
+# pip install -r requirements.txt
+
+# virtualenv virtualenv-27 -p PATH_TO_PYTHON27
+# pip install -r requirements.txt
+
+# Dependencies
+
+# Metrics
+coverage==3.5.1
+
+# Code Style
+pep8==1.0.1
+

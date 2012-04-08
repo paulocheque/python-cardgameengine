@@ -1,0 +1,102 @@
+= Game Engine = 
+
+== Threads == 
+
+AssyncrhonousCommandManager runs in a different thread.
+- Start: When the game starts
+- Stop: When the game end
+
+Each command:
+- Start: When a commands manager execute a command
+- Stop: When the command is executed or if its algorithm get a timeout (Configurations - timeForCommand)
+
+Each strategy:
+- Start: When a player plays
+- Stop: When a player finish your turn or if its strategy get a timeout (Configurations - timeForPlay)
+
+Each Game:
+- Start: When a game starts
+- Stop: When a game has been finished or if its algorithm get a timeout (Configurations - timeForGame)
+
+
+1) Main thread:
+- Start commands manager in thread A (If commands manager is assynchronous)
+- Start game in thread B
+
+2) Thread B:
+- Start player execution in thread C
+
+3) Thread C:
+- Create commands used in thread A (assynchronous) or thread B (synchronous)
+
+4) Thread A or B:
+- Start execution of a command in thread D
+
+== Commands ==
+
+GameCommand: Manages data
+
+OK: Success
+Unknown: Command not registered in game
+Invalid: Command that break the rules
+Cheat: Invalid command with bad intention
+Error: Command bugged
+
+Commands Manager (SyncrhonousCommandManager or AssyncrhonousCommandManager): It manages the model through commands
+
+SyncrhonousCommandManager: Run each command at a time, synchrounously.
+
+AssyncrhonousCommandManager: Enqueue commands assynchronously and execute one at a time.
+
+
+== Players ==
+
+Context: What data of a game one player can see to play properly.
+All contexts has: player (yourself), currentGamePlayers and configurations
+
+Player: One player has: name, strategy, team, context 
+
+Team: One team has: name, list of players (players)
+
+Strategy: Player and context
+RuntimeStrategy: Strategy that reads a sourcecode
+
+== Game ==
+
+GameReport: players, initialNumberOfPlayers, configurations, winners, losers, banneds, commands, playersDurationTime, durationTime
+    
+Configurations: timeForPlay, timeForGame
+    
+AbstractRound: Basic structure of a game: players, report, winners, isTheEnd, start, playerPlays
+Game: The game: Observable, commands manager, configurations
+
+GameOfRoundsReport: GameReport with round reports
+GameRound: AbstractGame, contains the most of games logic
+GameOfRounds: Game with a list of rounds, it manages the rounds
+
+== Factory ==
+
+GameFactory: Factory for a game
+
+FactoryManager: Manage a list of avaiable games 
+
+
+
+= Card Game Engine =
+
+CardPlayerContext: shortcut to playercards
+
+CardGameCommand: shortcut to playercards
+
+RoundReport: algorithmsErrors TODO
+
+CardGameReport: wrapper
+
+Round: distributeCardsToAllPlayers, seeCards, currentPlayer, playercards
+
+CardConfigurations: deckPrototype
+
+CardGame: GameOfRounds
+
+CardGameFactory: wrapper
+
