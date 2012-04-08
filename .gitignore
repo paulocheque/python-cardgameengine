@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 dist/
 build/
 .settings
@@ -15,24 +14,5 @@ build/
 *.pyo
 *.db
 *.sqlite
-=======
-glob:dist/
-glob:build/
-glob:.settings
-glob:.project
-glob:.pydevproject
-glob:.settings/org.eclipse.core.resources.prefs
-glob:.settings/org.eclipse.core.runtime.prefs
-glob:.settings/org.eclipse.ltk.core.refactoring.prefs
-glob:.settings/org.eclipse.wst.validation.prefs
-glob:.bat
-glob:.sh
-glob:.coverage
-glob:.hgchurn
-glob:.pyc
-glob:.pyo
-glob:.db
-glob:.sqlite
->>>>>>> c26d8d23ab4fb40da3e771ccabd7b5e13a683f0e
 
 cardgameengine.egg-info
