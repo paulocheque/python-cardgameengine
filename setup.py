@@ -15,6 +15,7 @@ from setuptools import setup, find_packages
 
 
 tests_require = [
+    'nose==1.1.2',
 ]
 
 install_requires = [
@@ -36,7 +37,7 @@ setup(name='python-cardgameengine',
       version='0.1',
       install_requires=install_requires,
       tests_require=tests_require,
-      test_suite='runtests.runtests',
+      test_suite='nose.collector',
       extras_require={'test': tests_require},
 
       packages=find_packages(),
