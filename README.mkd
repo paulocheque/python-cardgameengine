@@ -1,3 +1,5 @@
+[![Hack Score](https://hackscore-api.herokuapp.com/badge/562a7c25dfd5e2000506754a?template=1)](https://hackscore-api.herokuapp.com/user/562a7c25dfd5e2000506754a)
+
 = Game Engine = 
 
 == Threads == 
