@@ -1,4 +1,6 @@
-[![Hack Score](https://hackscore.herokuapp.com/badge/562a7c25dfd5e2000506754a?template=1)](https://hackscore.herokuapp.com/user/562a7c25dfd5e2000506754a)
+[![Hack Score](https://hackscore.herokuapp.com/badge/562aaa5c1ef7b80005dd8d3b?template=1)](https://hackscore.herokuapp.com/user/562aaa5c1ef7b80005dd8d3b)
+
+[![Hack Score](https://hackscore.herokuapp.com/badge/562aaa5c1ef7b80005dd8d3b?template=2)](https://hackscore.herokuapp.com/user/562aaa5c1ef7b80005dd8d3b)
 
 = Game Engine = 
 
