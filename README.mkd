@@ -1,7 +1,12 @@
-[![Hack Score](https://hackscore.herokuapp.com/badge/56576b58bec5a70003917054?template=1)](https://hackscore.herokuapp.com/profile/56576b58bec5a70003917054)[![Hack Score](https://hackscore.herokuapp.com/badge/56576b58bec5a70003917054?template=2)](https://hackscore.herokuapp.com/profile/56576b58bec5a70003917054)[![Hack Score](https://hackscore.herokuapp.com/badge/56576b58bec5a70003917054?template=3)](https://hackscore.herokuapp.com/profile/56576b58bec5a70003917054)
+[![Build Status](https://travis-ci.org/paulocheque/django-dynamic-fixture.png?branch=master)](https://travis-ci.org/paulocheque/django-dynamic-fixture)
+[![Docs Status](https://readthedocs.org/projects/django-dynamic-fixture/badge/?version=latest)](http://django-dynamic-fixture.readthedocs.org/en/latest/index.html)
+[![Coverage Status](https://coveralls.io/repos/paulocheque/django-dynamic-fixture/badge.png?branch=master)](https://coveralls.io/r/paulocheque/django-dynamic-fixture?branch=master)
+[![Code Status](https://landscape.io/github/paulocheque/django-dynamic-fixture/master/landscape.png)](https://landscape.io/github/paulocheque/django-dynamic-fixture/)[![Hack Score](https://hackscore.herokuapp.com/badge/56576b58bec5a70003917054?template=2)](https://hackscore.herokuapp.com/profile/56576b58bec5a70003917054)[![Hack Score](https://hackscore.herokuapp.com/badge/56576b58bec5a70003917054?template=3)](https://hackscore.herokuapp.com/profile/56576b58bec5a70003917054)
 
 
 = Game Engine = 
+
+[![Hack Score](https://hackscore.herokuapp.com/badge/56576b58bec5a70003917054?template=1)](https://hackscore.herokuapp.com/profile/56576b58bec5a70003917054)
 
 == Threads == 
 
